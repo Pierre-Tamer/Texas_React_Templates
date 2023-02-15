@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 236 235">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .5;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #00bfa6;
+      }
+
+      .cls-4, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+        mix-blend-mode: multiply;
+        opacity: .6;
+      }
+
+      .cls-5 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-6 {
+        fill: #eee;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-4">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <rect class="cls-3" x="15.24" y="15.07" width="204.85" height="204.85" rx="40.05" ry="40.05"/>
+        <g class="cls-5">
+          <rect class="cls-6" x="29.44" y="29.27" width="176.45" height="176.45" rx="25.85" ry="25.85"/>
+          <g class="cls-1">
+            <rect class="cls-6" x="29.44" y="29.27" width="176.45" height="176.45" rx="25.85" ry="25.85"/>
+          </g>
+        </g>
+        <path class="cls-2" d="m160.77,70.81h-86.2v-9.58h86.2v9.58Zm0,14.36h-31.13v88.59h-9.58v-88.59h-4.79v88.59h-9.58v-88.59h-31.13v-9.58h86.2v9.58h0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
